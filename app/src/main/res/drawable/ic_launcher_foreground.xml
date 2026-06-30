@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Cyan Ring (representing tiktok cyan glow) -->
+    <path
+        android:pathData="M 54 22 A 32 32 0 1 0 54 86 A 32 32 0 1 0 54 22 Z"
+        android:strokeColor="#25F4EE"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+        
+    <!-- Offset Pink Ring (representing tiktok pink shift) -->
+    <path
+        android:pathData="M 52.5 20.5 A 32 32 0 1 0 52.5 84.5 A 32 32 0 1 0 52.5 20.5 Z"
+        android:strokeColor="#FE2C55"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Pure White Download Arrow in Center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34 L54,58 L44,58 L54,71 L64,58 L54,58 Z" />
+        
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M44,64 L64,64" />
+</vector>
